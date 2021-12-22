@@ -1,14 +1,21 @@
 // Assignment Code
-var generateBtn = document.querySelector("#generate");
+let generateBtn = document.querySelector("#generate");
 
 // Write password to the #password input
 function writePassword() {
-  var password = generatePassword();
-  var passwordText = document.querySelector("#password");
+  let password = generatePassword();
+  let passwordText = document.querySelector("#password");
 
   passwordText.value = password;
 
 }
+let generatePassword=(()=>{
 
-// Add event listener to generate button
-generateBtn.addEventListener("click", writePassword);
+})
+let lengthChoice, 
+lowerChoice,
+upperChoice,
+numsChoice,
+
+
+generatePassword.addEventlistener("click", writePassword);

@@ -20,6 +20,7 @@ function sayLions() {
 }
 
 function sayTigers() {
+  var animal = "tigers";
   console.log("and " + animal + " and "); 
   return;
 }
